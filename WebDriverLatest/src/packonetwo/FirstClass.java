@@ -21,14 +21,7 @@ public class FirstClass {
 		driver.findElement(By.id("email")).sendKeys("abcdef");
 		driver.findElement(By.id("email")).clear();*/
 		
-		WebElement uid=driver.findElement(By.id("email"));
-		uid.sendKeys("kishore");
-		uid.clear();
-		uid.sendKeys("sfdsdfs");
 		
-		WebElement pwd=driver.findElement(By.id("pass"));
-		pwd.sendKeys("sdfsdf");
-		pwd.clear();
 		/*driver.findElement(By.id("email")).sendKeys("Kishore");
 		driver.findElement(By.id("pass")).sendKeys("abcdef");
 		
